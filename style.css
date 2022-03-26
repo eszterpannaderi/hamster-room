@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    background-color: cadetblue 5pt;
+    padding:0, 1vw;
+    font-family: 'Poppins', sans-serif;
+    color:cadetblue;
+    background-color: cadetblue;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+#hamsterCounter{
+    position:absolute;
+    top:30px;
+    left:20px;
+}
+#monthsCounter{
+    position:absolute;
+    top:30px;
+    left:78%;
+}
+#add{
+    width:30px;
+    border-radius: 50%;
+    border:none;
+    background-color: cadetblue;
+    color:white;
+    font-size:24pt;
+    position:absolute;
+    top:36px;
+    left:90%;
+
+}
+
+.text{
+    height:12vh;
+    width:100vw;
+    border:solid cadetblue 5pt;
+    border-bottom: none;
+    text-align: justify;
+    font-size: 24pt;
+    padding-top: 30px;
+    position:relative;
+    background-color: azure;
+}
+.log{
+    height:80vh;
+    width:27.3%;
+    padding-left: 20px;
+    background-color: rgb(250, 250, 250);
+    overflow-y: auto; 
+    overflow-x: hidden;
+    font-family: 'Source Code Pro', monospace;
+    border:solid cadetblue 5pt;
+    border-left: none;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-left:solid cadetblue 5pt;
+  border-radius: none;
+  background-color: azure ;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: cadetblue; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:cadetblue; 
+}
+
+
+.room{
+    height:80vh;
+    width:70%;
+    background-image: url("grass3.jpg");
+    border:solid cadetblue 5pt;
+    background-size: cover;
+    position:relative;
+}
+img{
+    height:70px;
+    position:absolute;
+}
+
+#i1{
+    top:10%;
+    left:50%;
+}
+
+#i2{
+    top:50%;
+    left:30%;
+    display:none;
+}
+
+#i3{
+    top:80%;
+    left:80%;
+
+}
